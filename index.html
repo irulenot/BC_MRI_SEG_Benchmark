@@ -143,6 +143,35 @@ End teaser video -->
 </section>
 <!-- End paper abstract -->
 
+<!-- Instructions & Datasets-->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Instructions & Datasets</h2>
+        <div class="content has-text-justified">
+          <p>
+            To use our benchmark please refer to our <a href="https://github.com/irulenot/BC_MRI_SEG" style="color: blue; text-decoration: underline;">GitHub</a>. It will require downloading four datasets, using processing scripts to prepare the datasets, and then optionally downloading weights to replicate our results.
+          </p>
+          <p>
+            Additionally we form a list of publicly available breast cancer MRI data. Many contain multiple modalities which are listed in a table in the carousel below and available in the paper.
+          </p>
+          <p>
+            <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=101942541#101942541215b684587f64c8cab1ffc45cd63f339" style="color: blue; text-decoration: underline;">ISPY1</a>, 
+            <a href="https://www.sciencedirect.com/science/article/pii/S0010482523007205" style="color: blue; text-decoration: underline;">BreastDM</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/display/Public/RIDER+Breast+MRI" style="color: blue; text-decoration: underline;">RIDER</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226903" style="color: blue; text-decoration: underline;">DUKE</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=50135447" style="color: blue; text-decoration: underline;">ISPY2</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=19039112" style="color: blue; text-decoration: underline;">TCGA</a>, 
+            <a href="https://www.cancerimagingarchive.net/collection/breast-diagnosis/" style="color: blue; text-decoration: underline;">DIAGNOSIS</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/display/Public/QIN-Breast" style="color: blue; text-decoration: underline;">QIN-Breast</a>, 
+            <a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=22513764" style="color: blue; text-decoration: underline;">NACT-Pilot</a>, 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -161,6 +190,12 @@ End teaser video -->
         <h2 class="subtitle has-text-centered">
         </h2>
       </div>
+      <div class="item" style="text-align: center;">
+        <!-- Your image here -->
+        <img src="static/images/datasets.jpg" alt="Datasets", style="width: 500px; height: 1250;"/>
+        <h2 class="subtitle has-text-centered">
+        </h2>
+      </div>
     </div>
   </div>
 </div>
@@ -168,7 +203,32 @@ End teaser video -->
 </section>
 <!-- End image carousel -->
 
-
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experimental Results and Future Directions</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our experimental results suggest that adapter based tuning yields poor zero-shot performance, two neighboring images are sufficient for tumor segmentation, and an asymmetrically large encoder architecture outperforms a traditionally balanced encoder-decoder architecture.
+          </p>
+          <p>
+            The datasets, suitable for training larger medical models
+beyond our benchmark [46], offer opportunities such as utilizing
+pretext tasks [1]. Additionally, there is potential for finegrained
+labeling, including self-supervised learning for creating
+segmentation masks for DUKE [36] or enhancing masks
+in ISPY2 [27]. Further, extending our U-Net2.1D approach to
+more complex models and diverse research domains leveraging
+depth is an avenue for exploration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
 
 <!-- Youtube video
